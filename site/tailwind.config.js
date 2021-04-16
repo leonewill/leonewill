@@ -13,7 +13,7 @@ module.exports = {
       '2xl': '1536px',
     },
     fontFamily: {
-      'sans': ['DM Sans', 'ui-sans-serif', 'system-ui'],
+      'sans': ['DM Sans', 'Sans-serif'],
     },
     fontWeight: {
       thin: 100,
@@ -53,8 +53,8 @@ module.exports = {
       white_75: 'rgba(255,255,255,0.075)',
       white_100: 'rgba(255,255,255,0.1)',
       white_500: 'rgba(255,255,255,0.5)',
-      deep_grey: '#202020',
-      heavy_grey: '#454545',
+      deep_grey: '#080808',
+      heavy_grey: '#202020',
       dark_grey: '#777777',
       grey: '#CCCCCC',
       light_grey: '#F0F0F0',

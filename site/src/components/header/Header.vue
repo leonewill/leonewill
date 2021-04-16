@@ -65,7 +65,7 @@
     <transition name="fade">
       <div
         v-if="showMenu == true"
-        class="w-full h-screen p-4 flex flex-col justify-between items-start box-border overflow-hidden absolute bottom-0 left-0 z-90 duration-500"
+        class="menu w-full h-screen p-4 flex flex-col justify-between items-start box-border overflow-hidden absolute bottom-0 left-0 z-100 duration-500"
         :class="hasHover == true ? 'bg-black' : 'bg-red'"
       >
         <div class="relative w-full flex flex-row justify-between items-center">
@@ -130,90 +130,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-:root{
-  --color-text: #fff;
-  --color-bg: #000;
-  --color-link: #f9d77e;
-  --color-link-hover: #fff;
-  --color-info: #efc453;
-  --glitch-width: 100vw;
-  --glitch-height: 100vh;
-  --gap-horizontal: 10px;
-  --gap-vertical: 5px;
-  --time-anim: 4s;
-  --delay-anim: 2s;
-  --blend-mode-1: none;
-  --blend-mode-2: none;
-  --blend-mode-3: none;
-  --blend-mode-4: none;
-  --blend-mode-5: overlay;
-  --blend-color-1: transparent;
-  --blend-color-2: transparent;
-  --blend-color-3: transparent;
-  --blend-color-4: transparent;
-  --blend-color-5: #af4949;
-}
-
-.glitch{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  
-  .glitch__item{
-    background: url('../../assets/images/logos/logo-will.svg') no-repeat 50% 50% / cover;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-  }
-  
-  .glitch__item:nth-child(n+2) {
-    opacity: 0;
-    animation-duration: var(--time-anim);
-    animation-delay: var(--delay-anim);
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
-  
-  .glitch__item:nth-child(2){
-    background-color: var(--blend-color-2);
-    background-blend-mode: var(--blend-mode-2);
-    animation-name: glitch-anim-2;
-  }
-  
-  .glitch__item:nth-child(2){
-    background-color: var(--blend-color-3);
-    background-blend-mode: var(--blend-mode-3);
-    animation-name: glitch-anim-3;
-  }
-  
-  .glitch__item:nth-child(4){
-    background-color: var(--blend-color-4);
-    background-blend-mode: var(--blend-mode-4);
-    animation-name: glitch-anim-4;
-  }
-  
-  .glitch__item:nth-child(5){
-    background-color: var(--blend-color-5);
-    background-blend-mode: var(--blend-mode-5);
-    animation-name: glitch-anim-flash;
-    
-    @keyframes glitch-anim-flash{
-      0%,5%{
-        opacity: 0.2;
-        transform: translate3d(var(--glitch-horizontal),var(--glitch-height),0)
-      }
-      5.5%,100%{
-        opacity: 0;
-        transform: translate3d(0, 0, 0);
-      }
-    }  
-  }
-}
-
 @mixin glitchCopy { 
 		content: attr(data-text);
 		position: absolute;
@@ -222,28 +138,7 @@ export default {
 		width: 100%;
 		height: 100%;
 }
-
 .glitch-text{
-  &:hover {
-    position: relative;
-    animation: glitch-skew 1s infinite linear alternate-reverse;
-    
-    &::before{
-      @include glitchCopy;
-      left: 2px;
-      text-shadow: -2px 0 #ff00c1;
-      clip: rect(44px, 450px, 56px, 0);
-      animation: glitch-anim 5s infinite linear alternate-reverse;
-    }
-    
-    &::after {
-      @include glitchCopy;
-      left: -2px;
-      text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
-      animation: glitch-anim2 1s infinite linear alternate-reverse;
-    }
-  }
-
   @media screen and (max-width: 1024px) {
     position: relative;
     animation: glitch-skew 1s infinite linear alternate-reverse;
@@ -261,35 +156,6 @@ export default {
       left: -2px;
       text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
       animation: glitch-anim2 1s infinite linear alternate-reverse;
-    }
-  }
-}
-
-@keyframes glitch-anim {
-  $steps: 20;
-  @for $i from 0 through $steps {
-    #{percentage($i*(1/$steps))} {
-      clip: rect(random(100)+px, 9999px, random(100)+px, 0);
-			transform: skew((random(100) / 100) + deg);
-    }
-  }
-}
-
-@keyframes glitch-anim2 {
-  $steps: 20;
-  @for $i from 0 through $steps {
-    #{percentage($i*(1/$steps))} {
-      clip: rect(random(100)+px, 9999px, random(100)+px, 0);
-			transform: skew((random(100) / 100) + deg);
-    }
-  }
-}
-
-@keyframes glitch-skew {
-  $steps: 10;
-  @for $i from 0 through $steps {
-    #{percentage($i*(1/$steps))} {
-      transform: skew((random(10) - 5) + deg);
     }
   }
 }
