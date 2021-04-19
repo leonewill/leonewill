@@ -3,11 +3,11 @@
     v-if="isMobile == false"
     class="top-0 left-0"
     :class="[
-      vertical == true ? 'w-full lg:w-14 h-14 lg:h-screen flex flex-row lg:flex-col justify-between items-center pb-4 box-border fixed bg-black' : '',
-      horizontal == true ? 'w-full min-h-14 flex flex-row justify-between items-center pr-1 box-border fixed bg-gradient-to-t from-transparent to-black' : '',
+      vertical == true ? 'vertical w-full lg:w-12 h-12 lg:h-screen flex flex-row lg:flex-col justify-between items-center pb-4 box-border fixed bg-black' : '',
+      horizontal == true ? 'horizontal w-full min-h-12 flex flex-row justify-between items-center pr-1 box-border fixed bg-gradient-to-t from-transparent to-black' : '',
     ]"
   >
-    <router-link to="" class="w-14 h-14 p-2 bg-transparent duration-500 hover:bg-red">
+    <router-link to="/" class="w-14 h-14 p-2 bg-transparent duration-500 hover:bg-red">
       <img class="w-full h-full object-center object-scale-down" src="@/assets/images/logos/logo-will.svg" alt="Logo Will Leone">
     </router-link>
     <nav
@@ -16,7 +16,7 @@
         horizontal == true ? 'flex flex-row justify-center items-centerd' : '',
       ]"
     >
-      <router-link to="" data-text="Sobre" class="glitch-text text-md text-white mr-8 duration-500">Sobre</router-link>
+      <router-link to="/sobre" data-text="Sobre" class="glitch-text text-md text-white mr-8 duration-500">Sobre</router-link>
       <router-link to="" data-text="Projetos" class="glitch-text text-md text-white mr-8 duration-500">Projetos</router-link>
       <router-link to="" data-text="Contato" class="glitch-text text-md text-white duration-500">Contato</router-link>
     </nav>
@@ -77,7 +77,7 @@
           </button>
         </div>
         <nav class="relative flex flex-col justify-start items-start">
-          <router-link to="" data-text="Sobre" class="glitch-text text-5xl text-white duration-500">Sobre</router-link>
+          <router-link to="/sobre" data-text="Sobre" class="glitch-text text-5xl text-white duration-500">Sobre</router-link>
           <router-link to="" data-text="Projetos" class="glitch-text text-5xl text-white duration-500">Projetos</router-link>
           <router-link to="" data-text="Contato" class="glitch-text text-5xl text-white duration-500">Contato</router-link>
         </nav>

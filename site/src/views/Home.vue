@@ -23,7 +23,7 @@
           <p>“When you do something beautiful and nobody noticed, do not be sad. For the sun, every morning is a beautiful spectacle and yet most of the audience still sleeps.”</p>
           <div class="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center mt-2 lg:mt-8">
             <small class="text-md xl:text-xl 2xl:text-2xl text-white block">John Lennon</small>
-            <router-link to="" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center mt-4 lg:mt-0">
+            <router-link to="/sobre" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center mt-4 lg:mt-0">
               <span class="w-8 h-0.5 bg-red mr-2 block"></span>
               <span data-text="Saiba mais sobre mim" class="glitch-text text-sm lg:text-lg">Saiba mais sobre mim</span>
             </router-link>
@@ -43,8 +43,8 @@
         </div>
       </div>
       
-    <Header :vertical="true" :isMobile="isMobile" />
     </section>
+    <Header :vertical="true" :isMobile="isMobile" />
   </div>
 </template>
 
