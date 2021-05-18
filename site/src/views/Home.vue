@@ -7,12 +7,12 @@
       <div class="content transform lg:rotate-0 w-full xl:w-7/12 2xl:w-8/12 flex flex-col justify-center items-end px-4 lg:px-0">
         <div class="w-full xl:w-10/12 flex flex-col justify-center items-center lg:items-start">
           <h1 class="2xl:w-8/12 text-xl xsm:text-3xl xl:text-5xl 2xl:text-6xl text-center lg:text-left text-white">UX/UI Designer &<br> Front-End Developer</h1>
-          <button class="w-12 h-12 rounded-full border border-heavy_grey p-3 flex flex-col justify-center items-center hover:border-red duration-500 outline-none focus:outline-none">
+          <button class="w-12 h-12 rounded-full border border-heavy_grey p-3 hidden lg:flex flex-col justify-center items-center hover:border-red duration-500 outline-none focus:outline-none">
             <img class="w-full h-full object-scale-down" src="@/assets/icons/white/icon-arrow-down.svg" alt="Ícone do botão para continuar descendo a página">
           </button>
         </div>
       </div>
-      <figure id="trigger3" class="cover w-full xl:w-5/12 2xl:w-4/12 h-36 lg:h-screen self-center lg:self-auto mb-4 lg:mb-0 overflow-hidden">
+      <figure id="trigger3" class="cover w-full xl:w-5/12 2xl:w-4/12 h-60 lg:h-screen self-center lg:self-auto mb-4 lg:mb-0 overflow-hidden">
         <img class="w-full h-full object-cover object-right lg:object-right lg:w-screen" src="@/assets/images/pictures/me/will-leone.png" alt="Foto de Will Leone">
       </figure>
     </section>
