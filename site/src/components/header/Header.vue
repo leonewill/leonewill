@@ -17,7 +17,7 @@
       ]"
     >
       <router-link to="/sobre" data-text="Sobre" class="glitch-text text-md text-white mr-8 duration-500">Sobre</router-link>
-      <router-link to="" data-text="Projetos" class="glitch-text text-md text-white mr-8 duration-500">Projetos</router-link>
+      <router-link to="/projetos" data-text="Projetos" class="glitch-text text-md text-white mr-8 duration-500">Projetos</router-link>
       <router-link to="" data-text="Contato" class="glitch-text text-md text-white duration-500">Contato</router-link>
     </nav>
     <div
@@ -65,34 +65,36 @@
     <transition name="fade">
       <div
         v-if="showMenu == true"
-        class="menu w-full h-screen p-4 flex flex-col justify-between items-start box-border overflow-hidden absolute bottom-0 left-0 z-100 duration-500"
-        :class="hasHover == true ? 'bg-black' : 'bg-red'"
+        class="menu w-full h-screen flex flex-col justify-end items-start box-border overflow-hidden absolute bottom-0 left-0 z-100 duration-500"
       >
-        <div class="relative w-full flex flex-row justify-between items-center">
-          <p class="text-2xl text-white">Menu</p>
-          <button @click="close()"
-            class="w-10 h-10 p-2 border rounded-full border-white_500 duration-500 hover:border-white"
+        <div class="w-full h-screen absolute top-0 left-0 bg-black_750"></div>
+        <div class="w-full h-9/10-screen p-4 rounded-t-2xl flex flex-col justify-center items-start relative bg-red">
+          <div class="w-full flex flex-row justify-between items-center absolute top-4 pr-6">
+            <p class="text-2xl text-white">Menu</p>
+            <button @click="close()"
+              class="w-10 h-10 p-2 border rounded-full border-white_500 duration-500 hover:border-white"
+            >
+              <img class="w-full h-full object-center object-scale-down" src="@/assets/icons/white/icon-close.svg" alt="Ícone linkedin">
+            </button>
+          </div>
+          <nav class="relative flex flex-col justify-start items-start">
+            <router-link to="/sobre" data-text="Sobre" class="glitch-text text-5xl text-white duration-500">Sobre</router-link>
+            <router-link to="/projetos" data-text="Projetos" class="glitch-text text-5xl text-white duration-500">Projetos</router-link>
+            <router-link to="" data-text="Contato" class="glitch-text text-5xl text-white duration-500">Contato</router-link>
+          </nav>
+          <div
+            class="h-12 flex flex-row justify-center items-center absolute bottom-4 left-4"
           >
-            <img class="w-full h-full object-center object-scale-down" src="@/assets/icons/white/icon-close.svg" alt="Ícone linkedin">
-          </button>
-        </div>
-        <nav class="relative flex flex-col justify-start items-start">
-          <router-link to="/sobre" data-text="Sobre" class="glitch-text text-5xl text-white duration-500">Sobre</router-link>
-          <router-link to="" data-text="Projetos" class="glitch-text text-5xl text-white duration-500">Projetos</router-link>
-          <router-link to="" data-text="Contato" class="glitch-text text-5xl text-white duration-500">Contato</router-link>
-        </nav>
-        <div
-          class="h-12 flex flex-row justify-center items-center"
-        >
-          <a class="w-10 h-10 py-3 px-2 mr-2 border rounded-full border-white_500 duration-500 hover:border-red" href="" title="">
-            <img class="w-full h-full object-center object-scale-down" src="@/assets/icons/white/icon-instagram.svg" alt="Ícone instagram">
-          </a>
-          <a class="w-10 h-10 py-3 px-2 mr-2 border rounded-full border-white_500 duration-500 hover:border-red" href="" title="">
-            <img class="w-full h-full object-center object-scale-down" src="@/assets/icons/white/icon-facebook.svg" alt="Ícone facebook">
-          </a>
-          <a class="w-10 h-10 py-3 px-2 border rounded-full border-white_500 duration-500 hover:border-red" href="" title="">
-            <img class="w-full h-full object-center object-scale-down" src="@/assets/icons/white/icon-linkedin.svg" alt="Ícone linkedin">
-          </a>
+            <a class="w-10 h-10 py-3 px-2 mr-2 border rounded-full border-white_500 duration-500 hover:border-red" href="" title="">
+              <img class="w-full h-full object-center object-scale-down" src="@/assets/icons/white/icon-instagram.svg" alt="Ícone instagram">
+            </a>
+            <a class="w-10 h-10 py-3 px-2 mr-2 border rounded-full border-white_500 duration-500 hover:border-red" href="" title="">
+              <img class="w-full h-full object-center object-scale-down" src="@/assets/icons/white/icon-facebook.svg" alt="Ícone facebook">
+            </a>
+            <a class="w-10 h-10 py-3 px-2 border rounded-full border-white_500 duration-500 hover:border-red" href="" title="">
+              <img class="w-full h-full object-center object-scale-down" src="@/assets/icons/white/icon-linkedin.svg" alt="Ícone linkedin">
+            </a>
+          </div>
         </div>
       </div>
     </transition>

@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
+import Projects from '../views/Projects.vue'
+import Smash from '../views/projects/Smash.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +17,16 @@ const routes = [
     path: '/sobre',
     name: 'About',
     component: About,
+  },
+  {
+    path: '/projetos',
+    name: 'Projects',
+    component: Projects,
+  },
+  {
+    path: '/projetos/smash',
+    name: 'Smash',
+    component: Smash,
   },
 ]
 

@@ -306,13 +306,14 @@ export default {
       secondRowFront: [
         'Javascript',
         'Vue.js',
+        'VueX',
+        'Nuxt.js',
         'Angular',
         'Flutter',
         'React Native',
         'Ionic',
         'Rest API',
         'Data Structure',
-        'Design Patterns',
       ],
     }
   },

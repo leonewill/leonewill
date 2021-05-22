@@ -434,7 +434,7 @@ module.exports = {
       'invert': 'invert(1)',
       'sepia': 'sepia(1)',
       'brightness': 'brightness(10000%)',
-      'blur': 'blur(20px)',
+      'blur': 'blur(15px)',
     },
     backdropFilter: {
       'none': 'none',
