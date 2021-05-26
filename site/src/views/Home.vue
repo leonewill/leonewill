@@ -1,13 +1,13 @@
 <template>
   <div class="w-full min-h-screen">
     <section class="w-full lg:min-h-auto box-border lg:pl-20 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-end lg:items-center">
-      <button v-if="isMobile == true" class="w-12 h-12 rounded-full border border-heavy_grey p-3 mt-8 self-center flex flex-col justify-center items-center outline-none focus:outline-none">
+      <button @click="anchor()" v-if="isMobile == true" class="w-12 h-12 rounded-full border border-heavy_grey p-3 mt-8 self-center flex flex-col justify-center items-center outline-none focus:outline-none">
         <img class="w-full h-full object-scale-down" src="@/assets/icons/white/icon-arrow-down.svg" alt="Ícone do botão para continuar descendo a página">
       </button>
       <div class="content transform lg:rotate-0 w-full xl:w-7/12 2xl:w-8/12 flex flex-col justify-center items-end px-4 lg:px-0">
         <div class="w-full xl:w-10/12 flex flex-col justify-center items-center lg:items-start">
           <h1 class="2xl:w-8/12 text-xl xsm:text-3xl xl:text-5xl 2xl:text-6xl text-center lg:text-left text-white">UX/UI Designer &<br> Front-End Developer</h1>
-          <button class="w-12 h-12 rounded-full border border-heavy_grey p-3 hidden lg:flex flex-col justify-center items-center hover:border-red duration-500 outline-none focus:outline-none">
+          <button @click="anchor()" class="w-12 h-12 rounded-full border border-heavy_grey p-3 hidden lg:flex flex-col justify-center items-center hover:border-red duration-500 outline-none focus:outline-none">
             <img class="w-full h-full object-scale-down" src="@/assets/icons/white/icon-arrow-down.svg" alt="Ícone do botão para continuar descendo a página">
           </button>
         </div>
@@ -17,7 +17,7 @@
       </figure>
     </section>
 
-    <section class="w-full min-h-screen lg:pl-20 lg:pr-20 pt-10 pb-20 lg:pt-20 lg:pb-40 flex flex-col lg:flex-row justify-between items-center lg:items-start">
+    <section ref="secondSection" class="w-full min-h-screen lg:pl-20 lg:pr-20 pt-10 pb-20 lg:pt-20 lg:pb-40 flex flex-col lg:flex-row justify-between items-center lg:items-start">
       <div id="trigger" class="w-10/12 lg:w-5/12 p-6 lg:p-12 relative bg-deep_grey transform scale-50 lg:scale-100">       
         <div class="text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-white leading-tight">
           <p>“When you do something beautiful and nobody noticed, do not be sad. For the sun, every morning is a beautiful spectacle and yet most of the audience still sleeps.”</p>
@@ -35,7 +35,7 @@
           <p>“The art challenges the technology, and the technology inspires the art.”</p>
           <div class="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center mt-2 lg:mt-8">
             <small class="text-md xl:text-xl 2xl:text-2xl text-white block">John Lasseter</small>
-            <router-link to="" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center mt-4 lg:mt-0">
+            <router-link to="/projetos" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center mt-4 lg:mt-0">
               <span class="w-8 h-0.5 bg-black mr-2 block"></span>
               <span data-text="Veja alguns projetos" class="glitch-text text-sm lg:text-lg">Veja alguns projetos</span>
             </router-link>
@@ -57,6 +57,7 @@ export default {
   components: {
     Header,
   },
+  title: 'Will Leone | UX/UI Designer, Product Designer, Front-end Developer',
   data() {
     return {
       getWindowWidth: window.innerWidth,
@@ -145,6 +146,13 @@ export default {
         this.isMobile = true;
       }
     },
+    anchor() {
+      this.$smoothScroll({
+        scrollTo: this.$refs.secondSection,
+        duration: 1000,
+        offset: -50,
+      })
+    }
   },
 }
 </script>

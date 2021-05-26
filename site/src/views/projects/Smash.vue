@@ -1,11 +1,11 @@
 <template>
   <div class="w-full overflow-hidden">
     <main class="w-full flex flex-col justify-start items-center">
-      <div class="max-w-sm lg:w-1/12 pl-8 absolute top-8 lg:top-20 left-0 border-b border-red">
+      <div class="max-w-sm pl-8 absolute top-8 lg:top-20 left-0 border-b border-red">
         <p class="text-4xl text-white">Smash</p>
       </div>
       <div class="w-full 2xl:w-11/12 pt-40 lg:pt-80 px-4 lg:px-20 grid grid-cols-1 lg:grid-cols-2 gap-20 2xl:gap-40">
-        <div class="w-full px-4 lg:px-0 flex flex-col justify-center items-center lg:items-start">
+        <div class="w-full px-4 lg:px-0 flex flex-col justify-start items-center lg:items-start">
           <img class="w-full" src="@/assets/images/logos/logo-smash.svg" alt="Logo aplicativo Smash">
           <p class="text-md text-white mt-8">*App em desenvolvimento</p>
         </div>
@@ -125,6 +125,7 @@ export default {
     Header,
     Footer
   },
+  title: 'Will Leone | Projeto - Smash',
   data() {
     return {
       getWindowWidth: window.innerWidth,

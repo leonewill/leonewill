@@ -12,12 +12,12 @@
             Conhecer profissionais extraordinários e me cercar de boas pessoas.
           </p>
         </div>
-        <button class="w-12 h-12 hidden lm:flex rounded-full border border-heavy_grey p-3 mt-8 lm:ml-16 flex-col justify-center items-center duration-500 hover:border-red outline-none focus:outline-none">
+        <button @click="anchor()" class="w-12 h-12 hidden lm:flex rounded-full border border-heavy_grey p-3 mt-8 lm:ml-16 flex-col justify-center items-center duration-500 hover:border-red outline-none focus:outline-none">
           <img class="w-full h-full object-scale-down" src="@/assets/icons/white/icon-arrow-down.svg" alt="Ícone do botão para continuar descendo a página">
         </button>
       </div>
     </section>
-    <section class="w-full flex flex-col justify-center items-start box-border py-12 overflow-hidden">
+    <section ref="secondSection" class="w-full flex flex-col justify-center items-start box-border py-12 overflow-hidden">
       <h2 class="title text-white leading-tight ml-4 lm:ml-20 mb-8 lm:mb-20">User<br> <span id="textColorUX">Experience</span> &<br> User <span id="textColor">Interface</span><br> Design</h2>
       <div class="w-max overflow-x-hidden">
         <div id="firstRowUX" class="transform -translate-x-2/3 flex flex-row justify-center items-center flex-nowrap">
@@ -47,7 +47,7 @@
         <p class="lm:mt-80 lm:pt-80 pl-20 text-xl text-white text-right">
           Pensar em cada detalhe de como construir um produto que agregara valor tanto para a empresa, quanto as pessoas que irão utilizar.<br><br>
           Penso como um designer porém tenho a alma de alguém de negócios, até por que no final do dia caso a interface seja apenas “bonita” e não trouxer resultados, meu trabalho não atingiu metas.<br><br>
-          Procuro cada vez mais participar de ideias geniais e liderar pessoas a se tornarem melhor profissionais, acredito que cada vez mais me desenvolvo e me surpreendo com os novos talentos que vou encontrando durante minha jornada e isso me motiva a ir cada vez mais longe.
+          Procuro cada vez mais participar de ideias geniais e liderar pessoas a se tornarem melhores profissionais, acredito que cada vez mais me desenvolvo e me surpreendo com os novos talentos que vou encontrando durante minha jornada e isso me motiva a ir cada vez mais longe.
         </p>
       </div>
     </section>
@@ -79,8 +79,8 @@
           <span class="w-full block text-2xl lm:text-3xl text-white">- Steve Jobs</span>
         </blockquote>
         <p class="lm:mt-80 lm:pt-80 pl-20 text-xl text-white text-right">
-          Conceber uma ideia que até antes estava no “papel”, dar vida a interações e conceber experiências que foram criadas em conjunto aos designers. Desenvolver softwares autênticos que colocaram “medo” na concorrência!<br><br>
-          A tecnologia cada dia mais avança em velocidades gigantescas, acredito que ainda estamos vivenciando o começo de um futuro com possibilidades infinitas. Sempre mantenho períodos de estudos e prática para que possa agregar conhecimentos a colegas e equipes. 
+          Conceber uma ideia que até antes estava no “papel”, dar vida a interações e conceber experiências que foram criadas em conjunto aos designers. Desenvolver softwares autênticos que irão “botar medo” na concorrência!<br><br>
+          A tecnologia, cada dia mais, avança em velocidade gigantesca! Acredito que ainda estamos vivenciando o começo de um futuro com possibilidades infinitas. Sempre mantenho períodos de estudos e prática para que eu possa agregar conhecimentos a colegas e equipes sempre. 
         </p>
       </div>
     </section>
@@ -90,7 +90,7 @@
         <div class="w-full flex flex-col justify-center items-center">
           <p class="w-full pl-4 md:pl-0 md:w-11/12 lm:w-8/12 text-2xl text-white">
             Trabalho para dar um bom futuro para os meus filhos!<br><br>
-            Sou muito apegado a animais no geral, acabei caindo em TI por ter facilidade em relação as minhas habilidades, mas caso eu mudasse de área com certeza seria para veterinária.
+            Sou muito apegado a animais no geral, acabei caindo em TI por ter facilidade em relação as minhas habilidades (fora uma história bem peculiar se assim posso dizer, mas deixa isso para outro momento 😂), mas caso eu mudasse de área com certeza seria para veterinária.
           </p>
           <figure class="w-full md:w-11/12 lm:w-8/12 h-auto lm:h-7/10-screen mt-20 relative overflow-hidden">
             <img id="picMell" class="w-full h-full object-cover transform scale-150" src="@/assets/images/pictures/me/mell.png" alt="Foto da Mell, cachorra do Will">
@@ -142,7 +142,7 @@
     </section>
     <section class="w-full py-8 lm:py-20 px-4 lm:px-12 flex flex-col lm:flex-row justify-center items-center">
       <p class="w-full lm:w-6/12 box-border pb-8 lm:pr-20 text-2xl text-white">
-        Eu não me lembro de um momento em que eu não ouça música desde a minha infância e consequentemente nasci em uma família onde o que manda é o Rock. E desde pequeno minha paixão por Red Hot Chili Peppers começou quando eu assisti ao clipe de Otherside. Então nasci em uma época muito boa e consegui acompanhar o melhor do final dos 90’s e tudo dos 00’s!<br><br>
+        Eu não me lembro de nenhum momento em que eu não tenha ouvido música, desde a minha infância! Consequentemente nasci em uma família onde o que manda é o Rock. E desde pequeno minha paixão por Rock e especialmente Red Hot Chili Peppers. Nasci em uma época muito boa e consegui acompanhar o melhor do final dos 90’s e tudo dos 00’s!<br><br>
         Mas também costumo ouvir diversos estilos de rock, rap, hip-hop, blues e reggae.
       </p>
       <iframe src="https://open.spotify.com/embed/playlist/2B7Eac6JmvBhzMHrGC8TBZ" class="w-full lm:w-md" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -208,6 +208,7 @@ export default {
     Header,
     Footer,
   },
+  title: 'Will Leone | Sobre',
   data() {
     return {
       getWindowWidth: window.innerWidth,
@@ -514,6 +515,13 @@ export default {
     setAnimes(value) {
       return require('@/assets/images/pictures/me/animes/'+value+'.png');
     },
+    anchor() {
+      this.$smoothScroll({
+        scrollTo: this.$refs.secondSection,
+        duration: 1000,
+        offset: -50,
+      })
+    }
   },
 }
 </script>

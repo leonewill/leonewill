@@ -66,6 +66,7 @@ export default {
     Hooper,
     Slide
   },
+  title: 'Will Leone | Projetos',
   data() {
     return {
       getWindowWidth: window.innerWidth,
