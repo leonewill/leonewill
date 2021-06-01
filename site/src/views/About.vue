@@ -45,8 +45,8 @@
           <span class="w-full block text-2xl lm:text-3xl text-white">- Steve Jobs</span>
         </blockquote>
         <p class="lm:mt-80 lm:pt-80 pl-20 text-xl text-white text-right">
-          Pensar em cada detalhe de como construir um produto que agregara valor tanto para a empresa, quanto as pessoas que irão utilizar.<br><br>
-          Penso como um designer porém tenho a alma de alguém de negócios, até por que no final do dia caso a interface seja apenas “bonita” e não trouxer resultados, meu trabalho não atingiu metas.<br><br>
+          Pensar em cada detalhe de como construir um produto que agregará valor tanto para a empresa, quanto para as pessoas que irão utilizar.<br><br>
+          Penso como um designer porém tenho a alma de alguém de negócios, até porque, no final do dia, caso a interface seja apenas “bonita” e não trouxer resultados, meu trabalho não atingiu metas.<br><br>
           Procuro cada vez mais participar de ideias geniais e liderar pessoas a se tornarem melhores profissionais, acredito que cada vez mais me desenvolvo e me surpreendo com os novos talentos que vou encontrando durante minha jornada e isso me motiva a ir cada vez mais longe.
         </p>
       </div>
@@ -90,7 +90,7 @@
         <div class="w-full flex flex-col justify-center items-center">
           <p class="w-full pl-4 md:pl-0 md:w-11/12 lm:w-8/12 text-2xl text-white">
             Trabalho para dar um bom futuro para os meus filhos!<br><br>
-            Sou muito apegado a animais no geral, acabei caindo em TI por ter facilidade em relação as minhas habilidades (fora uma história bem peculiar se assim posso dizer, mas deixa isso para outro momento 😂), mas caso eu mudasse de área com certeza seria para veterinária.
+            Sou muito apegado a animais no geral, acabei caindo em TI por ter facilidade em relação as minhas habilidades (fora uma história bem peculiar, se assim posso dizer, mas deixa isso para outro momento 😂), mas caso eu mudasse de área, com certeza seria para veterinária.
           </p>
           <figure class="w-full md:w-11/12 lm:w-8/12 h-auto lm:h-7/10-screen mt-20 relative overflow-hidden">
             <img id="picMell" class="w-full h-full object-cover transform scale-150" src="@/assets/images/pictures/me/mell.png" alt="Foto da Mell, cachorra do Will">
@@ -142,7 +142,7 @@
     </section>
     <section class="w-full py-8 lm:py-20 px-4 lm:px-12 flex flex-col lm:flex-row justify-center items-center">
       <p class="w-full lm:w-6/12 box-border pb-8 lm:pr-20 text-2xl text-white">
-        Eu não me lembro de nenhum momento em que eu não tenha ouvido música, desde a minha infância! Consequentemente nasci em uma família onde o que manda é o Rock. E desde pequeno minha paixão por Rock e especialmente Red Hot Chili Peppers. Nasci em uma época muito boa e consegui acompanhar o melhor do final dos 90’s e tudo dos 00’s!<br><br>
+        Nasci em uma família onde o que manda é o Rock. E desde pequeno tenho paixão por Rock e especialmente Red Hot Chili Peppers. Consequentemente, eu não me lembro de nenhum momento na minha vida em que eu não tenha ouvido música, desde a minha infância! Cresci em uma época muito boa e consegui acompanhar o melhor do final dos 90’s e tudo dos 00’s!<br><br>
         Mas também costumo ouvir diversos estilos de rock, rap, hip-hop, blues e reggae.
       </p>
       <iframe src="https://open.spotify.com/embed/playlist/2B7Eac6JmvBhzMHrGC8TBZ" class="w-full lm:w-md" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -150,7 +150,7 @@
     <section class="w-full py-8 lm:py-20 px-4 lm:px-20 flex flex-col justify-start items-start mb-60">
       <h3 class="title text-white leading-tight mb-8 lm:mb-20">Leitura</h3>
       <p class="w-full lm:w-6/12 box-border lm:pr-20 text-2xl text-white">
-        Já li diversos livros sobre Design, Negócios, Tecnologia e Biografias que me ajudaram em diversos sentidos e que trouxeram inspiração ou até mesmo mudar minha forma de pensar sobre alguns assuntos.
+        Já li diversos livros sobre Design, Negócios, Tecnologia e Biografias que me ajudaram em diversos sentidos e que trouxeram inspiração ou até mesmo mudaram minha forma de pensar sobre alguns assuntos.
         <br><br>
         Mas agora nada é melhor do que ler (ou assistir)...
       </p>
@@ -162,7 +162,7 @@
             v-for="(item, index) of animes.slice(0, 6)"
             :key="index"
             class="w-6/10-screen h-5/10-screen mr-8 bg-black">
-            <img class="w-full h-full object-cover" :src="setAnimes(item.id)" :alt="`Imagem Red Hot Chili Peppers ${index}`">
+            <img class="w-full h-full object-cover" :src="setAnimes(item.id)" :alt="`Imagem de Animes e Mangás ${index}`">
           </figure>
         </div>
         <div id="animes2" class="animes-all-left transform mb-8 flex flex-row justify-center items-center flex-nowrap">
@@ -170,7 +170,7 @@
             v-for="(item, index) of animes.slice(7, 12)"
             :key="index"
             class="w-6/10-screen h-5/10-screen mr-8 bg-black">
-            <img class="w-full h-full object-cover" :src="setAnimes(item.id)" :alt="`Imagem Red Hot Chili Peppers ${index}`">
+            <img class="w-full h-full object-cover" :src="setAnimes(item.id)" :alt="`Imagem de Animes e Mangás ${index}`">
           </figure>
         </div>
         <div id="animes3" class="animes-up transform mb-8 flex flex-row justify-center items-center flex-nowrap">
@@ -178,7 +178,7 @@
             v-for="(item, index) of animes.slice(13, 17)"
             :key="index"
             class="w-6/10-screen h-5/10-screen mr-8 bg-black">
-            <img class="w-full h-full object-cover" :src="setAnimes(item.id)" :alt="`Imagem Red Hot Chili Peppers ${index}`">
+            <img class="w-full h-full object-cover" :src="setAnimes(item.id)" :alt="`Imagem de Animes e Mangás ${index}`">
           </figure>
         </div>
         <div id="animes4" class="animes-all-left transform mb-8 flex flex-row justify-center items-center flex-nowrap">
@@ -186,11 +186,11 @@
             v-for="(item, index) of animes.slice(18, 24)"
             :key="index"
             class="w-6/10-screen h-5/10-screen mr-8 bg-black">
-            <img class="w-full h-full object-cover" :src="setAnimes(item.id)" :alt="`Imagem Red Hot Chili Peppers ${index}`">
+            <img class="w-full h-full object-cover" :src="setAnimes(item.id)" :alt="`Imagem de Animes e Mangás ${index}`">
           </figure>
         </div>
       </div>
-      <h4 class="w-full text-8xl lm:text-12xl text-center text-white leading-none absolute top-2/4 left-2/4 transform -translate-y-2/4 -translate-x-2/4 z-50">Mangas<br> & Animes</h4>
+      <h4 class="w-full text-8xl lm:text-12xl text-center text-white leading-none absolute top-2/4 left-2/4 transform -translate-y-2/4 -translate-x-2/4 z-50">Mangás<br> & Animes</h4>
     </section>
     <Footer class="mt-8 lm:mt-20" />
     <Header :horizontal="true" :isMobile="isMobile" />

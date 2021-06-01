@@ -36,14 +36,14 @@
           </p>
           <p class="text-4xl lg:text-6xl text-white mt-20">Por que?</p>
           <p class="text-xl text-white">
-            Essa ideía foi criada por mim e mais um amigo, no intuíto de estudar novas tecnologias, tendências e conceitos de experiência do usuário com um público bem específico.
+            Essa ideia foi criada por mim e mais um amigo, no intuito de estudar novas tecnologias, tendências e conceitos de experiência do usuário com um público bem específico.
             <br><br>
-            O projeto esta sendo desenvolvido bem aos ”poucos” por ser um projeto de estudo e ”for fun”!
+            O projeto está sendo desenvolvido bem aos ”poucos” por ser um projeto de estudo e ”for fun”!
           </p>
         </div>
       </div>
       <div class="w-full flex flex-col justify-center items-center mt-20">
-        <p class="w-full lg:w-6/12 text-4xl lg:text-6xl px-4 lg:px-0 text-white text-center">E um pouco do que esta por vir do Smash 👀</p>
+        <p class="w-full lg:w-6/12 text-4xl lg:text-6xl px-4 lg:px-0 text-white text-center">E um pouco do que está por vir do Smash 👀</p>
         <div class="w-11/12 grid grid-cols-2 md:grid-cols-3 grid-flow-row-dense lg:grid-cols-4 gap-10 mt-20">
           <div class="w-full flex flex-col">
             <img class=" border border-heavy_grey" src="@/assets/images/pictures/smash/smash-splash.png" alt="">

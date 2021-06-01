@@ -36,14 +36,14 @@
             <br><br>
             O desafio era criar um site para o Charlie, para inserirmos a marca no mercado.
             <br><br>
-            Então criamos um site institucional, para explicar um pouco sobre o negócio, produtos e buscar gerar alguns leads em relação a investidores de imóveis.
+            Então criamos um site institucional, para explicar um pouco sobre o sobre o negócio, produtos, e buscar gerar alguns leads em relação a investidores de imóveis.
           </p>
         </div>
       </div>
       <div class="w-12/12 pt-20 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-40">
         <div class="w-full px-0 lg:px-10 lg:pl-10 lg:pr-20 mt-0 lg:mt-40 flex flex-col justify-start">
           <p class="text-xl text-white px-10 lg:px-0">
-            Os objetivos foram alcançados, porém sabiamos que esse site seria temporário devido ao rápido desenvovlimento da empresa e a procura de clientes e investidores, então começamos a pensar e projetar uma plataforma para realizar reservas e outras features.
+            Os objetivos foram alcançados, porém sabíamos que esse site seria temporário devido ao rápido desenvovlimento da empresa e a procura de clientes e investidores, então começamos a pensar e projetar uma plataforma para realizar reservas e outras features.
             <br><br>
             Então partimos para o desenvolvimento do app do Charlie. É um app híbrido, desenvolvido em Flutter. Participei tanto da criação da interface do app e também do desenvolvimento.
           </p>
@@ -85,7 +85,7 @@
         <img class="investors-finances w-full lg:w-7/12 transform object-cover float-right mt-10" src="@/assets/images/pictures/charlie/charlie-investors-finances.png" alt="">
       </div>
       <div class="w-full flex flex-col justify-center items-center mt-20">
-        <p class="w-full lg:w-6/12 text-4xl lg:text-6xl px-4 lg:px-0 text-white text-center">E um pouco do que esta por vir da nova plataforma do Charlie 👀</p>
+        <p class="w-full lg:w-6/12 text-4xl lg:text-6xl px-4 lg:px-0 text-white text-center">E um pouco do que está por vir da nova plataforma do Charlie 👀</p>
         <div class="w-full pt-20 px-10 relative">
           <img class="platform-home w-full lg:w-7/12 transform object-cover border-2 border-heavy_grey" src="@/assets/images/pictures/charlie/charlie-platform-home.png" alt="">
           <img class="platform-search w-full lg:w-7/12 transform object-cover border-2 border-heavy_grey float-right mt-10" src="@/assets/images/pictures/charlie/charlie-platform-search.png" alt="">
