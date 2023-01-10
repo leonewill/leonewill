@@ -11,7 +11,7 @@
         </div>
         <div id="redContainer" class="w-full p-10 lg:p-12 bg-red transform scale-50 lg:scale-100">
           <p class="text-3xl md:text-5xl 2xl:text-6xl text-white leading-tight">
-            O Charlie transforma a forma de morar e viajar, mesclando o mundo do hotel com o de casa oferecendo uma experiência de estadia e serviços sob demanda para curta, média e longa duração.
+            {{ $t('projects.charlie.welcome') }}
           </p>
         </div>
       </div>
@@ -26,26 +26,26 @@
           </div>
         </div>
         <div class="w-full px-10 lg:pl-0 lg:pr-20 mt-0 lg:mt-40 flex flex-col justify-center">
-          <p class="text-4xl lg:text-6xl text-white">Como tudo começou?</p>
+          <p class="text-4xl lg:text-6xl text-white">{{ $t('projects.charlie.title') }}</p>
           <p class="text-xl text-white">
-            Entrei no projeto do Charlie na primeira equipe! Um time pequeno e multidisciplinar.
+            {{ $t('projects.charlie.description.1') }}
             <br><br>
-            Meu desafio era criar todos os produtos da empresa, realizar products discoverys, benchmarks, criar as primeiras interfaces, componentes e começar a estruturar o Design System no Figma.
+            {{ $t('projects.charlie.description.2') }}
             <br><br>
-            Fora isso, também estava como responsável pelo desenvolvimento front-end! Sim, bem puxado... Mas demos conta!
+            {{ $t('projects.charlie.description.3') }}
             <br><br>
-            O desafio era criar um site para o Charlie, para inserirmos a marca no mercado.
+            {{ $t('projects.charlie.description.4') }}
             <br><br>
-            Então criamos um site institucional, para explicar um pouco sobre o sobre o negócio, produtos, e buscar gerar alguns leads em relação a investidores de imóveis.
+            {{ $t('projects.charlie.description.5') }}
           </p>
         </div>
       </div>
       <div class="w-12/12 pt-20 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-40">
         <div class="w-full px-0 lg:px-10 lg:pl-10 lg:pr-20 mt-0 lg:mt-40 flex flex-col justify-start">
           <p class="text-xl text-white px-10 lg:px-0">
-            Os objetivos foram alcançados, porém sabíamos que esse site seria temporário devido ao rápido desenvovlimento da empresa e a procura de clientes e investidores, então começamos a pensar e projetar uma plataforma para realizar reservas e outras features.
+            {{ $t('projects.charlie.description.6') }}
             <br><br>
-            Então partimos para o desenvolvimento do app do Charlie. É um app híbrido, desenvolvido em Flutter. Participei tanto da criação da interface do app e também do desenvolvimento.
+            {{ $t('projects.charlie.description.7') }}
           </p>
           <div class="w-11/12 grid grid-cols-2 pl-10 lg:pl-0 gap-4 lg:gap-10 mt-20">
             <div class="w-full flex flex-col">
@@ -85,7 +85,7 @@
         <img class="investors-finances w-full lg:w-7/12 transform object-cover float-right mt-10" src="@/assets/images/pictures/charlie/charlie-investors-finances.png" alt="">
       </div>
       <div class="w-full flex flex-col justify-center items-center mt-20">
-        <p class="w-full lg:w-6/12 text-4xl lg:text-6xl px-4 lg:px-0 text-white text-center">E um pouco do que está por vir da nova plataforma do Charlie 👀</p>
+        <p class="w-full lg:w-6/12 text-4xl lg:text-6xl px-4 lg:px-0 text-white text-center">{{ $t('projects.charlie.subtitle') }} 👀</p>
         <div class="w-full pt-20 px-10 relative">
           <img class="platform-home w-full lg:w-7/12 transform object-cover border-2 border-heavy_grey" src="@/assets/images/pictures/charlie/charlie-platform-home.png" alt="">
           <img class="platform-search w-full lg:w-7/12 transform object-cover border-2 border-heavy_grey float-right mt-10" src="@/assets/images/pictures/charlie/charlie-platform-search.png" alt="">

@@ -7,10 +7,10 @@
       <div class="w-full 2xl:w-11/12 pt-40 lg:pt-80 px-4 lg:px-20 grid grid-cols-1 lg:grid-cols-2 gap-20 2xl:gap-40">
         <div class="w-full px-4 lg:px-0 flex flex-col justify-start items-center lg:items-start">
           <img class="w-full" src="@/assets/images/logos/logo-smash.svg" alt="Logo aplicativo Smash">
-          <p class="text-md text-white mt-8">*App em desenvolvimento</p>
+          <p class="text-md text-white mt-8">{{ $t('projects.smash.wip') }}</p>
         </div>
         <div id="redContainer" class="w-full p-10 lg:p-12 bg-red transform scale-50 lg:scale-100">
-          <p class="text-3xl md:text-5xl 2xl:text-6xl text-white leading-tight">O Smash é um app onde você encontrará diversos conteúdos relacionados a música e animes. O melhor lugar para você encontrar uma comunidade ativa em produzir conteúdos e os clássicos AMV's!</p>
+          <p class="text-3xl md:text-5xl 2xl:text-6xl text-white leading-tight">{{ $t('projects.smash.welcome') }}</p>
         </div>
       </div>
       <div class="w-12/12 pt-20 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-40">
@@ -28,22 +28,22 @@
           <img class="w-10/12 top-2/4 left-2/4 absolute transform -translate-y-2/4 -translate-x-2/4" src="@/assets/images/logos/logo-smash.svg" alt="Logo aplicativo Smash">
         </div>
         <div class="w-full px-10 lg:pl-0 lg:pr-20 flex flex-col justify-center">
-          <p class="text-4xl lg:text-6xl text-white">Sobre</p>
+          <p class="text-4xl lg:text-6xl text-white">{{ $t('projects.smash.title1') }}</p>
           <p class="text-xl text-white">
-            O Smash é uma rede social sem fins lucrativos para postagem de conteúdos realcionamos a animes e mangás! Você pode criar seus próprios vídeos com as cenas mais marcantes e com músicas que encaixam perfeitamente com seu vídeo!
+            {{ $t('projects.smash.description.1') }}
             <br><br>
-            Para as próximas versões pensaremos em como você pode editar e criar seu próprio vídeo direto do seu celular, compartilhando no seu perfil do Smash ou onde quiser!
+            {{ $t('projects.smash.description.2') }}
           </p>
-          <p class="text-4xl lg:text-6xl text-white mt-20">Por que?</p>
+          <p class="text-4xl lg:text-6xl text-white mt-20">{{ $t('projects.smash.title2') }}</p>
           <p class="text-xl text-white">
-            Essa ideia foi criada por mim e mais um amigo, no intuito de estudar novas tecnologias, tendências e conceitos de experiência do usuário com um público bem específico.
+            {{ $t('projects.smash.description.3') }}
             <br><br>
-            O projeto está sendo desenvolvido bem aos ”poucos” por ser um projeto de estudo e ”for fun”!
+            {{ $t('projects.smash.description.4') }}
           </p>
         </div>
       </div>
       <div class="w-full flex flex-col justify-center items-center mt-20">
-        <p class="w-full lg:w-6/12 text-4xl lg:text-6xl px-4 lg:px-0 text-white text-center">E um pouco do que está por vir do Smash 👀</p>
+        <p class="w-full lg:w-6/12 text-4xl lg:text-6xl px-4 lg:px-0 text-white text-center">{{ $t('projects.smash.subtitle') }} 👀</p>
         <div class="w-11/12 grid grid-cols-2 md:grid-cols-3 grid-flow-row-dense lg:grid-cols-4 gap-10 mt-20">
           <div class="w-full flex flex-col">
             <img class=" border border-heavy_grey" src="@/assets/images/pictures/smash/smash-splash.png" alt="">

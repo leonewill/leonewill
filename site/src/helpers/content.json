@@ -40,7 +40,53 @@
         "first": "Últimos",
         "second": "Projetos"
       },
-      "cta": "Confira o projeto"
+      "cta": "Confira o projeto",
+      "charlie": {
+        "welcome": "O Charlie transforma a forma de morar e viajar, mesclando o mundo do hotel com o de casa oferecendo uma experiência de estadia e serviços sob demanda para curta, média e longa duração.",
+        "title": "Como tudo começou?",
+        "description": {
+          "1": "Entrei na Charlie na primeira equipe! Um time pequeno e multidisciplinar.",
+          "2": "Meu desafio era criar todos os produtos da empresa, realizar products discoverys, benchmarks, criar as primeiras interfaces, componentes e começar a estruturar uma biblioteca de componentes no Figma.",
+          "3": "Fora isso, também estava como responsável pelo desenvolvimento front-end! Sim, bem dificíl... Mas demos conta!",
+          "4": "O desafio era criar um site para o Charlie, para inserirmos a marca no mercado.",
+          "5": "Então criamos um site institucional, para explicar um pouco sobre o sobre o negócio, produtos, e buscar gerar alguns leads em relação a investidores de imóveis.",
+          "6": "Os objetivos foram alcançados, porém sabíamos que esse site seria temporário devido ao rápido desenvovlimento da empresa e a procura de clientes e investidores, então começamos a pensar e projetar uma plataforma para realizar reservas e outras features.",
+          "7": "Então partimos para o desenvolvimento do app do Charlie. É um app híbrido, desenvolvido em Flutter. Participei da criação da interface do app e também do desenvolvimento."
+        },
+        "subtitle": "E um pouco do que está por vir da nova plataforma do Charlie"
+      },
+      "buddy": {
+        "wip": "*App em desenvolvimento",
+        "welcome": "Por meio do aplicativo da Buddy, os usuários poderão adotar e ajudar cães diretamente com ONGs e protetores cadastrados, registrar animais abandonados ou para resgate, sendo recompensados por isso com cupons de descontos de empresas apoiadoras",
+        "title": "Manifest",
+        "cover": "Lute por eles",
+        "subtitle": "Um pouco do que está por vir da Buddy",
+        "description": {
+          "1": "A causa animal não é silenciosa.",
+          "2": "Quem nunca ouviu um cachorro chorar de fome ou o viu vagando pelas ruas revirando lixo? Cachorros e gatos são abandonados todos os dias pelos mais diversos motivos. Nenhum deles, justificável.",
+          "3": "Quantas vezes você já viu um animal abandonado, sentiu pena e, infelizmente, não sabia o que fazer? Quantas pessoas já passaram pela mesma situação?",
+          "4": "Você abandonaria um filho ou uma mãe por problemas comportamentais ou falta de espaço em casa? Nós acreditamos que não. Acreditamos que você faz parte da solução e não do problema.",
+          "5": "Com a Buddy, apenas uma adoção é possível salvar vidas. Graças a você, tudo pode mudar para um animal de rua ou em um abrigo, impactando até mesmo na sua vida e na de outras pessoas.",
+          "6": "Podemos mudar a vida de pessoas e animais com interações simples, pois acreditamos que um pequeno gesto faz a diferença. A Buddy quer juntar colaboradores que acreditam na causa e que a cada tarefa realizada, a cada ideia concebida e a cada decisão tomada podemos nos aproximar cada vez mais do nosso objetivo.",
+          "7": "Sim, nós somos uma empresa, mas apenas isso não basta. Somos mais que isso. Somos uma comunidade. Somos pessoas. Somos nós, você, seu vizinho, seu chefe, seu funcionário, sua família. Nós temos rostos. Rostos que não se viram mais para encarar um abandono.",
+          "8": "Nós da Buddy temos a convicção que nosso movimento pode ser tão forte que será impossível não olhar por animais de rua.",
+          "9": "Até então, ignorar um animal abandonado ou em um abrigo pela dificuldade em se fazer algo era compreensível. Com a Buddy, a opção é sua: passe reto ou lute por eles.",
+          "10": "Ainda não lançamos o aplicativo da Buddy! Mas você já pode acompanhar o projeto pelas redes sociais!"
+        }
+      },
+      "smash": {
+        "wip": "*App em desenvolvimento",
+        "welcome": "O Smash é um app onde você encontrará diversos conteúdos relacionados a música e animes. O melhor lugar para você encontrar uma comunidade ativa em produzir conteúdos e os clássicos AMV's!",
+        "title1": "Sobre",
+        "title2": "Por que?",
+        "subtitle": "Um pouco do que está por vir do Smash",
+        "description": {
+          "1": "O Smash é uma rede social sem fins lucrativos para postagem de conteúdos realcionamos a animes e mangás! Você pode criar seus próprios vídeos com as cenas mais marcantes e com músicas que encaixam perfeitamente com seu vídeo!",
+          "2": "Para as próximas versões pensaremos em como você pode editar e criar seu próprio vídeo direto do seu celular, compartilhando no seu perfil do Smash ou onde quiser!",
+          "3": "Essa ideia foi criada por mim e mais um amigo, no intuito de estudar novas tecnologias, tendências e conceitos de experiência do usuário com um público bem específico.",
+          "4": "O projeto está sendo desenvolvido bem aos ”poucos” por ser um projeto de estudo e ”for fun”!"
+        }
+      }
     },
     "header": {
       "home": "Home",
@@ -94,7 +140,53 @@
         "first": "Latest",
         "second": "Projects"
       },
-      "cta": "Check it out"
+      "cta": "Check it out",
+      "charlie": {
+        "welcome": "Charlie transforms the way of living and traveling, merging the world of the hotel with that of home, offering a stay experience and on-demand services for short, medium and long term stays.",
+        "title": "How it all began?",
+        "description": {
+          "1": "I joined Charlie in the first team! A small and multidisciplinary team.",
+          "2": "My challenge was to create all the company's products, perform product discoveries, benchmarks, create the first interfaces, components and start structuring a component library in Figma.",
+          "3": "Other than that, I was also responsible for front-end development! Yes, it was very difficult... But we did it!",
+          "4": "The challenge was to create a website for Charlie, so that we could insert the brand in the market.",
+          "5": "So we created an institutional website, to explain a little about the business, products, and try to generate some leads in relation to real estate investors.",
+          "6": "The objectives were achieved, but we knew that this site would be temporary due to the rapid development of the company and the demand from customers and investors, so we started to think and design a platform to make reservations and other features.",
+          "7": "So we set out to develop Charlie's app. It is a hybrid app, developed in Flutter. I participated in the creation of the app's interface and also in the development."
+        },
+        "subtitle": "And some of what's to come from Charlie's new platform"
+      },
+      "buddy": {
+        "wip": "*In development",
+        "welcome": "Through the Buddy app, users will be able to adopt and help dogs directly with registered NGOs and protectors, register abandoned animals or animals for rescue, being rewarded with discount coupons from supporting companies",
+        "title": "Manifest",
+        "cover": "fight for them",
+        "subtitle": "And some of what's to come from Buddy",
+        "description": {
+          "1": "With Buddy, just one adoption can save lives. Thanks to you, everything can change for a street animal or in a shelter, even impacting your life and other people's lives.",
+          "2": "Who hasn't heard a dog cry from hunger or seen it roaming the streets rummaging through garbage? Dogs and cats are abandoned every day for a variety of reasons. None of them justifiable.",
+          "3": "How many times have you seen an abandoned animal, felt sorry for it and unfortunately didn't know what to do? How many people have been through the same situation?",
+          "4": "Would you abandon a child or a mother due to behavioral problems or lack of space at home? We believe not. We believe that you are part of the solution, not the problem.",
+          "5": "With Buddy, just one adoption can save lives. Thanks to you, everything can change for a street animal or in a shelter, even impacting your life and other people's lives.",
+          "6": "We can change the lives of people and animals with simple interactions, because we believe that a small gesture makes a difference. Buddy wants to bring together employees who believe in the cause and that with each task carried out, with each idea conceived and with each decision made, we can get closer and closer to our goal.",
+          "7": "Yes, we are a company, but that alone is not enough. We are more than that. We are a community. We are people. It's us, you, your neighbor, your boss, your employee, your family. We have faces. Faces that no longer turn around to face abandonment.",
+          "8": "We at Buddy are convinced that our movement can be so strong that it will be impossible not to look after stray animals.",
+          "9": "Until then, ignoring an animal abandoned or in a shelter because of the difficulty in doing something was understandable. With the Buddy, the choice is yours: pass them by or fight for them.",
+          "10": "We haven't released the Buddy app yet! But you can now follow the project on social media!"
+        }
+      },
+      "smash": {
+        "wip": "*In development",
+        "welcome": "Smash is an app where you'll find a variety of anime and music related content. The best place for you to find an active community producing content and classic AMV's!",
+        "title1": "About",
+        "title2": "Why?",
+        "subtitle": "And some of what's to come from Smash",
+        "description": {
+          "1": "Smash is a non-profit social network for posting content related to anime and manga! You can create your own videos with the most memorable scenes and music that fits perfectly with your video!",
+          "2": "For the next versions we'll think about how you can edit and create your own video right from your phone, sharing it on your Smash profile or wherever you want!",
+          "3": "This idea was created by me and another friend, in order to study new technologies, trends and user experience concepts with a very specific audience.",
+          "4": "The project is being developed “little by little” as it is a study project and “for fun”!"
+        }
+      }
     },
     "header": {
       "home": "Home",
