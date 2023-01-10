@@ -6,7 +6,7 @@
       </button>
       <div class="content transform lg:rotate-0 w-full xl:w-7/12 2xl:w-8/12 flex flex-col justify-center items-end px-4 lg:px-0">
         <div class="w-full xl:w-10/12 flex flex-col justify-center items-center lg:items-start">
-          <h1 class="2xl:w-8/12 text-xl xsm:text-3xl xl:text-5xl 2xl:text-6xl text-center lg:text-left text-white">UX/UI Designer &<br> Front-End Developer</h1>
+          <h1 class="2xl:w-8/12 text-xl xsm:text-3xl xl:text-5xl 2xl:text-6xl text-center lg:text-left text-white">Product Designer &<br> Front-End Developer</h1>
           <button @click="anchor()" class="w-12 h-12 rounded-full border border-heavy_grey p-3 hidden lg:flex flex-col justify-center items-center hover:border-red duration-500 outline-none focus:outline-none">
             <img class="w-full h-full object-scale-down" src="@/assets/icons/white/icon-arrow-down.svg" alt="Ícone do botão para continuar descendo a página">
           </button>
@@ -25,7 +25,7 @@
             <small class="text-md xl:text-xl 2xl:text-2xl text-white block">John Lennon</small>
             <router-link to="/sobre" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center mt-4 lg:mt-0">
               <span class="w-8 h-0.5 bg-red mr-2 block"></span>
-              <span data-text="Saiba mais sobre mim" class="glitch-text text-sm lg:text-lg">Saiba mais sobre mim</span>
+              <span :data-text="$t('home.about')" class="glitch-text text-sm lg:text-lg">{{ $t('home.about') }}</span>
             </router-link>
           </div>
         </div>
@@ -37,7 +37,7 @@
             <small class="text-md xl:text-xl 2xl:text-2xl text-white block">John Lasseter</small>
             <router-link to="/projetos" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center mt-4 lg:mt-0">
               <span class="w-8 h-0.5 bg-black mr-2 block"></span>
-              <span data-text="Veja alguns projetos" class="glitch-text text-sm lg:text-lg">Veja alguns projetos</span>
+              <span :data-text="$t('home.projects')" class="glitch-text text-sm lg:text-lg">{{ $t('home.projects') }}</span>
             </router-link>
           </div>
         </div>

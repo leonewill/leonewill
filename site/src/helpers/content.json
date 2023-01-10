@@ -1,0 +1,110 @@
+{
+  "pt": {
+    "home": {
+      "about": "Um pouco sobre mim",
+      "projects": "Confira alguns projetos"
+    },
+    "about": {
+      "intro": {
+        "title": "Atuo há 10 anos com design e tecnologia",
+        "description": "Busco cada vez mais projetos interessantes e desafiadores, acabo sempre tentando tomar riscos para buscar resultados ainda maiores do que eu posso esperar. Acredito que por trás de projetos geniais existem pessoas extraordinárias que trabalham como um só time, com um único propósito comum e isso é o que mais me atrai! Conhecer profissionais extraordinários e me cercar de boas pessoas."
+      },
+      "design": {
+        "description": "Pensar em cada detalhe de como construir um produto que agregará valor tanto para a empresa, quanto para as pessoas que irão utilizar. Penso como um designer porém tenho a alma de alguém de negócios, até porque, no final do dia, caso a interface seja apenas “bonita” e não trouxer resultados, meu trabalho não atingiu metas. Procuro cada vez mais participar de ideias geniais e liderar pessoas a se tornarem melhores profissionais, acredito que cada vez mais me desenvolvo e me surpreendo com os novos talentos que vou encontrando durante minha jornada e isso me motiva a ir cada vez mais longe."
+      },
+      "engineer": {
+        "description": "Conceber uma ideia que até antes estava no “papel”, dar vida a interações e conceber experiências que foram criadas em conjunto aos designers. Desenvolver softwares autênticos que irão “botar medo” na concorrência! A tecnologia, cada dia mais, avança em velocidade gigantesca! Acredito que ainda estamos vivenciando o começo de um futuro com possibilidades infinitas. Sempre mantenho períodos de estudos e prática para que eu possa agregar conhecimentos a colegas e equipes sempre."
+      },
+      "myself": {
+        "title": {
+          "first": "Um pouco",
+          "second": "sobre mim"
+        },
+        "description": "Trabalho para dar um bom futuro para os meus filhos! Sou muito apegado a animais no geral, acabei caindo em TI por ter facilidade em relação as minhas habilidades (fora uma história bem peculiar, se assim posso dizer, mas deixa isso para outro momento 😂), mas caso eu mudasse de área, com certeza seria para veterinária.",
+        "music": {
+          "title": "Música",
+          "description": "Nasci em uma família onde o que manda é o Rock. E desde criança tenho paixão por Rock e especialmente Red Hot Chili Peppers. Consequentemente, eu não me lembro de nenhum momento na minha vida em que eu não tenha ouvido música, desde a minha infância! Cresci em uma época muito boa e consegui acompanhar o melhor do final dos 90’s e tudo dos 00’s! Mas também costumo ouvir diversos estilos de rock, rap, hip-hop, blues e reggae."
+        },
+        "read": {
+          "title": "Leitura",
+          "description": "Já li diversos livros sobre Design, Negócios, Tecnologia e Biografias que me ajudaram em diversos sentidos e que trouxeram inspiração ou até mesmo mudaram minha forma de pensar sobre alguns assuntos. Mas agora nada é melhor do que ler (ou assistir)...",
+          "subtitle": {
+            "first": "Manga &",
+            "second": "Anime"
+          }
+        }
+      }
+    },
+    "projects": {
+      "title": {
+        "first": "Últimos",
+        "second": "Projetos"
+      },
+      "cta": "Confira o projeto"
+    },
+    "header": {
+      "home": "Home",
+      "about": "Sobre",
+      "projects": "Projetos"
+    },
+    "footer": {
+      "title": "Curtiu?",
+      "description": "Confira meus projetos",
+      "other_description": "Confira outros projetos"
+    }
+  },
+  "en": {
+    "home": {
+      "about": "A little about myself",
+      "projects": "Check my projects"
+    },
+    "about": {
+      "intro": {
+        "title": "I've been working with design and technology for 10 years",
+        "description": "I'm looking for more and more interesting and challenging projects, I always end up trying to take risks to get even greater results than I can expect. I believe that behind great projects there are extraordinary people who work as a single team, with a single common purpose and that is what attracts me the most! Meet extraordinary professionals and surround myself with good people."
+      },
+      "design": {
+        "description": "Thinking about every detail of how to build a product that will add value to both the company and the people who will use it. I think like a designer, but I have the soul of someone in business, because, at the end of the day, if the interface is just “beautiful” and doesn't bring results, my work has not reached its goals. I try more and more to participate in brilliant ideas and lead people to become better professionals, I believe that I develop more and more and am surprised by the new talents that I find during my journey and that motivates me to go further."
+      },
+      "engineer": {
+        "description": "Conceiving an idea that even before was on “paper”, giving life to interactions and conceiving experiences that were created together with the designers. To develop authentic software that will “frighten” the competition! Technology, every day, advances at a gigantic speed! I believe that we are still experiencing the beginning of a future with endless possibilities. I always maintain study and practice periods so that I can add knowledge to colleagues and teams at all times."
+      },
+      "myself": {
+        "title": {
+          "first": "A little",
+          "second": "about myself"
+        },
+        "description": "I work to give my children a good future! I'm very attached to animals in general, I ended up falling for IT because it was easy with my skills (apart from a very peculiar story, if I may say so, but leave that for another time 😂), but if I changed areas, for sure I would be a veterinarian.",
+        "music": {
+          "title": "Music",
+          "description": "I was born into a family where Rock was the boss. And since I was a child I have a passion for Rock and especially Red Hot Chili Peppers. Consequently, I can't remember a single moment in my life when I haven't listened to music, since my childhood! I grew up in a very good time and managed to keep up with the best of the late 90's and everything from the 00's! But I also tend to listen to different styles of rock, rap, hip-hop, blues and reggae."
+        },
+        "read": {
+          "title": "Reading",
+          "description": "I've read several books on Design, Business, Technology and Biographies that have helped me in many ways and that have brought inspiration or even changed my way of thinking about some subjects. But now nothing is better than reading (or watching)...",
+          "subtitle": {
+            "first": "Manga &",
+            "second": "Anime"
+          }
+        }
+      }
+    },
+    "projects": {
+      "title": {
+        "first": "Latest",
+        "second": "Projects"
+      },
+      "cta": "Check it out"
+    },
+    "header": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects"
+    },
+    "footer": {
+      "title": "Liked?",
+      "description": "Check my projects",
+      "other_description": "Check other projects"
+    }
+  }
+}

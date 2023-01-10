@@ -31,21 +31,21 @@
     >
       <router-link
         to="/"
-        data-text="Home"
+        :data-text="$t('header.home')"
         class="glitch-text text-md text-white mr-8 duration-500"
-        >Home</router-link
+        >{{ $t('header.home') }}</router-link
       >
       <router-link
         to="/sobre"
-        data-text="Sobre"
+        :data-text="$t('header.about')"
         class="glitch-text text-md text-white mr-8 duration-500"
-        >Sobre</router-link
+        >{{ $t('header.about') }}</router-link
       >
       <router-link
         to="/projetos"
-        data-text="Projetos"
+        :data-text="$t('header.projects')"
         class="glitch-text text-md text-white duration-500"
-        >Projetos</router-link
+        >{{ $t('header.projects') }}</router-link
       >
     </nav>
     <div
@@ -180,21 +180,21 @@
           <nav class="relative flex flex-col justify-start items-start">
             <router-link
               to="/"
-              data-text="Home"
+              :data-text="$t('header.home')"
               class="glitch-text text-5xl text-white duration-500"
-              >Home</router-link
+              >{{ $t('header.home') }}</router-link
             >
             <router-link
               to="/sobre"
-              data-text="Sobre"
+              :data-text="$t('header.about')"
               class="glitch-text text-5xl text-white duration-500"
-              >Sobre</router-link
+              >{{ $t('header.about') }}</router-link
             >
             <router-link
               to="/projetos"
-              data-text="Projetos"
+              :data-text="$t('header.projects')"
               class="glitch-text text-5xl text-white duration-500"
-              >Projetos</router-link
+              >{{ $t('header.projects') }}</router-link
             >
           </nav>
           <div

@@ -1,7 +1,9 @@
 <template>
   <div class="w-full h-screen overflow-hidden">
     <main class="w-full h-full flex flex-row justify-between items-center">
-      <h1 class="w-full lg:w-auto text-3xl md:text-5xl lg:text-7xl 2xl:text-8xl text-white text-center lg:text-left leading-none absolute left-0 lg:left-10 2xl:left-40 top-24 md:top-8 lg:top-2/4 transform lg:-translate-y-2/4 z-20">Últimos<br> Projetos</h1>
+      <h1 class="w-full lg:w-auto text-3xl md:text-5xl lg:text-7xl 2xl:text-8xl text-white text-center lg:text-left leading-none absolute left-0 lg:left-10 2xl:left-40 top-24 md:top-8 lg:top-2/4 transform lg:-translate-y-2/4 z-20">
+        {{ $t('projects.title.first') }}<br> {{ $t('projects.title.second') }}
+      </h1>
       <div class="w-full h-full flex flex-col justify-between items-center relative">
         <hooper
           ref="hooper"
@@ -25,7 +27,7 @@
                 <img class="matrix logo max-h-10 md:max-h-20 absolute top-2/4 left-2/4 transform z-10" :src="setLogos(item.logo)" :alt="item.alt">
                 <router-link :to="'/projetos/' + item.name" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center absolute top-3/4 left-2/4 transform -translate-x-2/4 z-10">
                   <span class="w-8 h-0.5 bg-red mr-2 block"></span>
-                  <span data-text="Veja mais" class="glitch-text text-sm lg:text-lg">Veja mais</span>
+                  <span :data-text="$t('projects.title.first')" class="glitch-text text-sm lg:text-lg">{{ $t('projects.cta') }}</span>
                 </router-link>
               </div>
             </div>
