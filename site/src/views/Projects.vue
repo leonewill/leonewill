@@ -27,7 +27,7 @@
                 <img class="matrix logo max-h-10 md:max-h-20 absolute top-2/4 left-2/4 transform z-10" :src="setLogos(item.logo)" :alt="item.alt">
                 <router-link :to="'/projetos/' + item.name" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center absolute top-3/4 left-2/4 transform -translate-x-2/4 z-10">
                   <span class="w-8 h-0.5 bg-red mr-2 block"></span>
-                  <span :data-text="$t('projects.title.first')" class="glitch-text text-sm lg:text-lg">{{ $t('projects.cta') }}</span>
+                  <span :data-text="$t('projects.title.cta')" class="glitch-text text-sm lg:text-lg">{{ $t('projects.cta') }}</span>
                 </router-link>
               </div>
             </div>
