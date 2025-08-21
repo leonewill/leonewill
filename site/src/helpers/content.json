@@ -36,6 +36,9 @@
       }
     },
     "projects": {
+      "wip": {
+        "title": "Preciso atualizar essa página, mas pode levar um tempo por conta de falta de tempo e preguiça..."
+      },
       "title": {
         "first": "Últimos",
         "second": "Projetos"
@@ -136,6 +139,9 @@
       }
     },
     "projects": {
+      "wip": {
+        "title": "I need to update this page, but it might take a while due to a lack of time and laziness..."
+      },
       "title": {
         "first": "Latest",
         "second": "Projects"
