@@ -1,8 +1,0 @@
-[build]
-  base    = "site"
-  command = "yarn build"
-  publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "16"
-  YARN_IGNORE_ENGINES = "true"  # evita travar em checagem de engines de deps
