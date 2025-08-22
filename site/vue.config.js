@@ -1,10 +1,11 @@
-// vue.config.js
+// site/vue.config.js
 module.exports = {
+  outputDir: 'dist',          // <- garante que sai em dist/
+  publicPath: '/',
   chainWebpack: (config) => {
-    // REMOVE a cópia automática da pasta public/ no modo dev (temporário)
+    // Só remove o CopyPlugin no DEV
     if (process.env.NODE_ENV !== 'production') {
       config.plugins.delete('copy');
     }
   },
-  devServer: { port: 8081 }
 };

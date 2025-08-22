@@ -1,8 +1,7 @@
-# netlify.toml (RAIZ do repo)
 [build]
-  base    = "site"                  # entra na pasta site/
+  base    = "site"                                   # entra em /site
   command = "yarn install --frozen-lockfile && yarn build"
-  publish = "dist"                  # publica site/dist
+  publish = "dist"                                   # publica /site/dist
 
 [build.environment]
   NODE_VERSION = "16.20.2"
