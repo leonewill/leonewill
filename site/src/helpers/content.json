@@ -37,7 +37,8 @@
     },
     "projects": {
       "wip": {
-        "title": "Preciso atualizar essa página, mas pode levar um tempo por conta de falta de tempo e preguiça..."
+        "title": "Preciso atualizar essa página, mas pode levar um tempo por conta de falta de tempo e preguiça...",
+        "link": "Por favor, volte para outra página"
       },
       "title": {
         "first": "Últimos",
@@ -140,7 +141,8 @@
     },
     "projects": {
       "wip": {
-        "title": "I need to update this page, but it might take a while due to a lack of time and laziness..."
+        "title": "I need to update this page, but it might take a while due to a lack of time and laziness...",
+        "link": "Please, back to another page"
       },
       "title": {
         "first": "Latest",

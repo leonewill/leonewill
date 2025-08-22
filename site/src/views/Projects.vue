@@ -2,8 +2,12 @@
   <div class="w-full h-screen overflow-hidden">
     <main class="w-full h-full flex flex-row justify-between items-center">
       <h1 class="w-full lg:w-auto text-3xl md:text-5xl lg:text-7xl 2xl:text-8xl text-white text-center lg:text-left leading-none absolute left-0 lg:left-10 2xl:left-40 top-24 md:top-8 lg:top-2/4 transform lg:-translate-y-2/4 z-20">
-        {{ $t('wip.title.first') }}
+        {{ $t('projects.wip.title') }}
       </h1>
+      <router-link to="/" class="text-md xl:text-lg 2xl:text-xl text-white flex flex-row justify-center items-center absolute top-3/4 left-2/4 transform -translate-x-2/4 z-10">
+        <span class="w-8 h-0.5 bg-red mr-2 block"></span>
+        <span :data-text="$t('projects.wip.link')" class="glitch-text text-sm lg:text-lg">{{ $t('projects.wip.link') }}</span>
+      </router-link>
 
       <!-- Carrossel de projetos
 
@@ -67,14 +71,14 @@
 
 <script>
 import Header from "@/components/header/Header.vue";
-import { Hooper, Slide } from 'hooper';
+// import { Hooper, Slide } from 'hooper';
 
 export default {
   name: "Projects",
   components: {
     Header,
-    Hooper,
-    Slide
+    // Hooper,
+    // Slide
   },
   title: 'Will Leone | Projetos',
   data() {

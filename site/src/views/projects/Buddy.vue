@@ -1,6 +1,6 @@
 <template>
   <div class="w-full overflow-hidden">
-    <main class="w-full flex flex-col justify-start items-center">
+    <!-- <main class="w-full flex flex-col justify-start items-center">
       <div class="max-w-sm pl-8 absolute top-8 lg:top-20 left-0 border-b border-red">
         <p class="text-4xl text-white">Buddy</p>
         <a class="text-xl text-white" href="http://www.appbuddy.pet" target="_blank">appbuddy.pet</a>
@@ -87,20 +87,20 @@
       </div>
     </main>
     <Footer class="mt-8 lm:mt-20" :isProjectPage="true" />
-    <Header :horizontal="true" :isMobile="isMobile" />
+    <Header :horizontal="true" :isMobile="isMobile" /> -->
   </div>
 </template>
 
 <script>
-import Header from "@/components/header/Header.vue";
-import Footer from "@/components/footer/Footer.vue";
+// import Header from "@/components/header/Header.vue";
+// import Footer from "@/components/footer/Footer.vue";
 import { TweenMax } from 'gsap';
 
 export default {
   name: "Buddy",
   components: {
-    Header,
-    Footer
+    // Header,
+    // Footer
   },
   title: 'Will Leone | Projeto - Buddy',
   data() {
