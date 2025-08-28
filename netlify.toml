@@ -1,9 +1,8 @@
-# netlify.toml (NA RAIZ DO REPO)
 [build]
-  base    = "site"  # entra em /site
-  command = "yarn install --frozen-lockfile && yarn build && echo '---LIST---' && pwd && ls -la && echo '---DIST---' && ls -la dist"
-  publish = "dist"  # publica /site/dist
+  command = "yarn install --frozen-lockfile && yarn build"
+  publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "16.20.2"
-  YARN_IGNORE_ENGINES = "true"
+  NODE_VERSION = "20"
+  # Se algum pacote reclamar de engines, descomente:
+  # YARN_IGNORE_ENGINES = "true"
